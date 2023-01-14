@@ -9,7 +9,7 @@ class Alert extends Component{
             message : 'Before Clicking'
         }
     }
-
+    
     changeText(){
         this.setState({
             message : 'After Clicking'
