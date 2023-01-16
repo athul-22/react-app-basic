@@ -8,6 +8,7 @@ import Alert from './Compoents/State';
 import Counter from './Compoents/Counter';
 import ParentComponent from './Compoents/ParentComponent'
 import ListRendering from './Compoents/ListRendering'
+import MultiArray from './Compoents/MultiArray';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <ParentComponent/>
     <br/>
     <ListRendering/>
+    <MultiArray/>
     </div>
   );
 }
