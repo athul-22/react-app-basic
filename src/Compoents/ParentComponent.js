@@ -18,12 +18,12 @@ class ParentComponent extends Component {
     // FUNCTION
 
     greetName(){
-        alert(`Welcome ${this.state.name}`)
+        alert("WELCOME" + this.name)
     }
 
   render() {
     return (
-      <div><ChildComponent/></div>
+      <div><ChildComponent greetHandler={this.greetName}/></div>
     )
   }
 }

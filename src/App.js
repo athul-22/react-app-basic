@@ -7,6 +7,7 @@ import Food from './Compoents/Props';
 import Alert from './Compoents/State';
 import Counter from './Compoents/Counter';
 import ParentComponent from './Compoents/ParentComponent'
+import ListRendering from './Compoents/ListRendering'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
      <Counter/>
      <Counter/>
     <ParentComponent/>
+    <br/>
+    <ListRendering/>
     </div>
   );
 }
