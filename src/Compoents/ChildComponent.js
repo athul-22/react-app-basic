@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-function ChildComponent() {
+function ChildComponent(props) {
   return (
     <div>
         ChildComponent 
         <br>
         </br>
-        <button>GREET </button>
+        <button onClick={props.greetHandle}>GREET </button>
     </div>
   )
 }
