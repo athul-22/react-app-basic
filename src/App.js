@@ -6,6 +6,7 @@ import Details from './Compoents/ClassFun';
 import Food from './Compoents/Props';
 import Alert from './Compoents/State';
 import Counter from './Compoents/Counter';
+import ParentComponent from './Compoents/ParentComponent'
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
      <Food name="Sadya"/>
      <Alert/>
      <Counter/>
-
+     <Counter/>
+     <Counter/>
+    <ParentComponent/>
     </div>
   );
 }
