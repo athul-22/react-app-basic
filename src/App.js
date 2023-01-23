@@ -10,7 +10,7 @@ import ParentComponent from './Compoents/ParentComponent'
 import ListRendering from './Compoents/ListRendering'
 import MultiArray from './Compoents/MultiArray';
 import Styling from './Styling/Styling';
-
+import Form from './Compoents/Form'
 
 function App() {
   return (
@@ -31,7 +31,13 @@ function App() {
     <ListRendering/>
     <MultiArray/>
     <Styling/>
+    <br>
+    </br>
+    <Form/>
+    <br>
+    </br>
     </div>
+    
   );
 }
 
