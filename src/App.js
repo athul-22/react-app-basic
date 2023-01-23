@@ -10,6 +10,7 @@ import ParentComponent from './Compoents/ParentComponent'
 import ListRendering from './Compoents/ListRendering'
 import MultiArray from './Compoents/MultiArray';
 import Styling from './Styling/Styling';
+import RefsDemo from './Compoents/RefsDemo';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
     <ListRendering/>
     <MultiArray/>
     <Styling/>
+    <br></br>
+    <RefsDemo/>
+    <br></br>
     </div>
   );
 }
