@@ -13,13 +13,17 @@ import React, { Component } from 'react'
     componentDidMount(){
         this.inputRef.current.focus()
         console.log(this.inputRef)
-        console.log(this.inputRef)
+    }
+
+    clickEvent = () => {
+        alert(this.inputRef.current.value )
     }
 
   render() {
     return (
       <div>
         <center><input className='input-refs' ref={this.inputRef}></input></center>
+        <button onClick={this.clickEvent}>ALERT</button>
       </div>
     )
   }
