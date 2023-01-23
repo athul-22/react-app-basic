@@ -13,6 +13,7 @@ import React, { Component } from 'react'
     componentDidMount(){
         this.inputRef.current.focus()
         console.log(this.inputRef)
+        console.log(this.inputRef)
     }
 
   render() {
