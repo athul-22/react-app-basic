@@ -9,6 +9,7 @@ import Counter from './Compoents/Counter';
 import ParentComponent from './Compoents/ParentComponent'
 import ListRendering from './Compoents/ListRendering'
 import MultiArray from './Compoents/MultiArray';
+import Styling from './Styling/Styling';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <br/>
     <ListRendering/>
     <MultiArray/>
+    <Styling/>
     </div>
   );
 }
