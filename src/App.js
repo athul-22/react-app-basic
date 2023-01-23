@@ -11,6 +11,7 @@ import ListRendering from './Compoents/ListRendering'
 import MultiArray from './Compoents/MultiArray';
 import Styling from './Styling/Styling';
 import Form from './Compoents/Form'
+import RefsDemo from './Compoents/RefsDemo';
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
     <Form/>
     <br>
     </br>
+    <RefsDemo/>
     </div>
+
     
   );
 }
