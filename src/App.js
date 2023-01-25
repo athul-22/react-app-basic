@@ -11,7 +11,7 @@ import ListRendering from './Compoents/ListRendering'
 import MultiArray from './Compoents/MultiArray';
 import Styling from './Styling/Styling';
 import RefsDemo from './Compoents/RefsDemo';
-
+import ApiComponent from './Compoents/ApiComponent';
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
     <br></br>
     <RefsDemo/>
     <br></br>
+    <ApiComponent/>
     </div>
   );
 }
