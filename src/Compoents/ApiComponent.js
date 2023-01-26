@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
  class ApiComponent extends Component {
-
+// POST IN CONSTRUCTOR
     constructor(props) {
         super(props)
       
