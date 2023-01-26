@@ -12,10 +12,16 @@ import MultiArray from './Compoents/MultiArray';
 import Styling from './Styling/Styling';
 import RefsDemo from './Compoents/RefsDemo';
 import ApiComponent from './Compoents/ApiComponent';
+import HookCounter from './HooksComponent/HookCounter';
+import HooksCounter2 from './HooksComponent/HooksCounter2';
 
 function App() {
   return (
     <div className="App">
+    {/* HOOKS*/}
+      <HooksCounter2/>
+      <HookCounter/>
+    {/* BEGINEER - INTERMEDIATE */}
      <Welcome/>
      <Text/>
      <Details />
