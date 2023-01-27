@@ -6,7 +6,7 @@ const[name , setName] = useState({firstName : '', lastName: ''})
 
   return (
     <div>
-        <input type="text" value={name.firstName} onChange={}/>
+        <input type="text" value={name.firstName} onChange={e = ()=> setName({firstName: e.target.value })}/>
 
     </div>
   )
