@@ -14,6 +14,7 @@ import RefsDemo from './Compoents/RefsDemo';
 import ApiComponent from './Compoents/ApiComponent';
 import HookCounter from './HooksComponent/HookCounter';
 import HooksCounter2 from './HooksComponent/HooksCounter2';
+import HookInput from './HooksComponent/HookInput';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     {/* HOOKS*/}
       <HooksCounter2/>
       <HookCounter/>
+      <HookInput/>
     {/* BEGINEER - INTERMEDIATE */}
      <Welcome/>
      <Text/>
