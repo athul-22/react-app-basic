@@ -9,8 +9,8 @@ function HooksCounter2() {
         COUNT {count}
             <br></br>
         <button onClick={() =>setCount(intialCount)}>RESET</button>    
-        <button onClick={() =>setCount(count+1)}>INCREMENT</button>    
-        <button onClick={() =>setCount(count-1)}>DECREMENT</button>    
+        <button onClick={() =>setCount(count+1)}>INCREMENT++</button>    
+        <button onClick={() =>setCount(count-1)}>DECREMENT--</button>    
     </div>
   )
 }
