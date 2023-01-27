@@ -14,11 +14,13 @@ import ApiComponent from './Compoents/ApiComponent';
 import HookCounter from './HooksComponent/HookCounter';
 import HooksCounter2 from './HooksComponent/HooksCounter2';
 import HookInput from './HooksComponent/HookInput';
+import HookList from './HooksComponent/HookList';
 
 function App() {
   return (
     <div className="App">
     {/* HOOKS*/}
+    <HookList/>
       <HooksCounter2/>
       <HookCounter/>
       <HookInput/>
