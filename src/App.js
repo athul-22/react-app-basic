@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Welcome from './Compoents/Function';
 import Text from './Compoents/ArrowFun';
