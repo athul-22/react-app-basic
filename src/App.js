@@ -15,11 +15,13 @@ import HookCounter from './HooksComponent/HookCounter';
 import HooksCounter2 from './HooksComponent/HooksCounter2';
 import HookInput from './HooksComponent/HookInput';
 import HookList from './HooksComponent/HookList';
+import HookUseEffect from './HooksComponent/HookUseEffect';
 
 function App() {
   return (
     <div className="App">
     {/* HOOKS*/}
+    <HookUseEffect/>
     <HookList/>
       <HooksCounter2/>
       <HookCounter/>
