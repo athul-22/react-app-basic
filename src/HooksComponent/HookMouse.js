@@ -7,8 +7,8 @@ function HookMouse() {
 
     const logMousePosition = e => {
         console.log('mouse efect')
-        setX(e.clintX)
-        setY(e.clintY)
+        setX(e.clientX)
+        setY(e.clientY)
     
     }
 
