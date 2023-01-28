@@ -17,11 +17,13 @@ import HookInput from './HooksComponent/HookInput';
 import HookList from './HooksComponent/HookList';
 import HookUseEffect from './HooksComponent/HookUseEffect';
 import HookMouse from './HooksComponent/HookMouse';
+import MouseContainer from './HooksComponent/MouseContainer';
 
 function App() {
   return (
     <div className="App">
     {/* HOOKS*/}
+    <MouseContainer/>
     <HookMouse/>
     <HookUseEffect/>
     <HookList/>
