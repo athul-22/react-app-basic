@@ -12,7 +12,6 @@ import axios from 'axios';
       }
 
     // API FETCHING PART
-
     componentDidMount(){
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then(response => {
