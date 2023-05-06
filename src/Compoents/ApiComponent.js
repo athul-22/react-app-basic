@@ -5,7 +5,6 @@ import axios from 'axios';
 // POST IN CONSTRUCTOR
     constructor(props) {
         super(props)
-      
         this.state = {
            post: []
         }
