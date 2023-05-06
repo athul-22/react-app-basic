@@ -10,8 +10,7 @@ import axios from 'axios';
         this.state = {
            post: []
         }
-     
-     
+    
       }
 
     // API FETCHING PART
