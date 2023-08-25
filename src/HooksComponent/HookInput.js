@@ -2,6 +2,7 @@ import React , { useState } from 'react'
 
 function HookInput() {
 
+  
 const[name , setName] = useState({firstName : '', lastName: ''})
 
   return (
