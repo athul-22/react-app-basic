@@ -4,7 +4,6 @@ function HookInput() {
 
 const[name , setName] = useState({firstName : '', lastName: ''})
 
-  
 
   return (
     <div>
